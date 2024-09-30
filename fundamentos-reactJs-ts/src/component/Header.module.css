@@ -1,0 +1,14 @@
+.header {
+    background: var(--gray-800);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem 0;
+    & img {
+        height: 3.8rem;
+    }
+    strong {
+        font: bold 1.59rem/1.6 'Roboto';
+    }
+}
